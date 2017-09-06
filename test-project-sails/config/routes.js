@@ -35,7 +35,8 @@ module.exports.routes = {
   '/': {
     view: 'homepage'
   },
-  "GET /test": {view: "test"},
+  'get /test': {view: "test"},
+
 
 
   /***************************************************************************
